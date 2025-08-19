@@ -116,7 +116,3 @@ This project is proprietary and confidential.
 ## Contact
 
 For questions or support, please contact the development team.
-<<<<<<< HEAD
-# dass-main
-=======
->>>>>>> 4da06fc (Initial commit)

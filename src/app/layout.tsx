@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "../../public/fonts/sansation.css";
 
 export const metadata: Metadata = {
   title: "Dentistry at SuburbanSquare - Michael L. Wollock, D.M.D.",
@@ -13,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-sans antialiased">
+      <body className="font-sansation-bold antialiased">
         {children}
       </body>
     </html>

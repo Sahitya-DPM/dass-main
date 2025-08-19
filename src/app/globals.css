@@ -8,6 +8,8 @@
   --gold-light: #D4AF37;
   --gold-medium: #FFD700;
   --gold-dark: #B8860B;
+  --font-regular: 'Sansationregular', 'Sansation_Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-bold: 'Sansationbold', 'Sansation_Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @theme inline {
@@ -27,20 +29,40 @@
   }
 }
 
+/* Apply Sansation fonts to every element */
+* {
+  font-family: var(--font-regular);
+}
+
+/* Headings use bold font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-bold);
+}
+
+/* Bold text elements */
+.font-bold, .font-sansation-bold, strong, b {
+  font-family: var(--font-bold);
+}
+
+/* Regular text elements */
+.font-regular, .font-sansation-regular, p, span, div, button, input, textarea, label {
+  font-family: var(--font-regular);
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-family: var(--font-regular);
 }
 
 /* Custom font classes for Sansation fonts */
 .font-sansation-regular {
-  font-family: 'Sansationregular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-regular);
   font-weight: 400;
 }
 
 .font-sansation-bold {
-  font-family: 'Sansationbold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-bold);
   font-weight: 700;
 } 
 

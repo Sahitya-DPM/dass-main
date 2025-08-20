@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function SeeResultsSection() {
   return (
-    <section className="w-full bg-white py-8 md:py-12">
+    <section id="see-results-section" className="w-full bg-white py-8 md:py-12">
       <div className="w-full px-4 md:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           {/* Title */}

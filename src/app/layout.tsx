@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import "../../public/fonts/sansation.css";
 
 export const metadata: Metadata = {
   title: "Dentistry at SuburbanSquare - Michael L. Wollock, D.M.D.",

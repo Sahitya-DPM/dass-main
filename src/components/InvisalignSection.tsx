@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function InvisalignSection() {
   return (
-    <section className="w-full bg-[#004B87] py-8 md:py-12 lg:py-16 mt-2.5">
+    <section id="invisalign-section" className="w-full bg-[#004B87] py-8 md:py-12 lg:py-16 mt-2.5">
       <div className="w-full px-4 md:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center w-full">
         
@@ -129,6 +129,6 @@ export default function InvisalignSection() {
         </div>
       </div>
     </div>
-  </section>
+    </section>
   );
 }

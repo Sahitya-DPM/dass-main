@@ -7,11 +7,6 @@ export default function AwardSection() {
     <section className="w-full bg-white py-16">
       <div className="w-full px-4 md:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          {/* Title */}
-          <h2 className="text-[32px] font-sansation-bold text-[#004B87] text-center mb-12">
-            Dr. Wollock's Awards & Recognition
-          </h2>
-          
           {/* Row 1 - 12 Images - Invisalign Diamond Awards */}
           <div className="flex flex-wrap justify-center items-center gap-4 mb-8">
             {/* Diamond+ 2024 */}

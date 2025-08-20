@@ -1,36 +1,54 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --primary-blue: #003366;
-  --primary-blue-hover: #004080;
-  --gold-light: #D4AF37;
-  --gold-medium: #FFD700;
-  --gold-dark: #B8860B;
+@font-face {
+  font-family: 'Sansationregular';
+  src: url('/fonts/Sansation_Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-primary-blue: var(--primary-blue);
-  --color-primary-blue-hover: var(--primary-blue-hover);
-  --color-gold-light: var(--gold-light);
-  --color-gold-medium: var(--gold-medium);
-  --color-gold-dark: var(--gold-dark);
+@font-face {
+  font-family: 'Sansationbold';
+  src: url('/fonts/Sansation_Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@font-face {
+  font-family: 'Sansation_Regular';
+  src: url('/fonts/Sansation_Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansation_Bold';
+  src: url('/fonts/Sansation_Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'SansationRegular', sans-serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+@layer components {
+  .paragraph-text {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: sansationregular;
+    font-weight: 100;
+  }
 }
 
 /* Custom font classes for Sansation fonts */
@@ -41,143 +59,6 @@ body {
 
 .font-sansation-bold {
   font-family: 'Sansationbold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 700;
-} 
-
-/* Custom logo dimensions */
-.w-30 {
-  width: 120px;
-  height: 120px;
-}
-
-.md\:w-35 {
-  width: 140px;
-  height: 140px;
-}
-
-.lg\:w-45 {
-  width: 180px;
-  height: 180px;
-}
-
-.lg\:w-62 {
-  width: 250px;
-  height: 250px;
-}
-
-.lg\:w-70 {
-  width: 280px;
-  height: 280px;
-}
-
-.lg\:w-75 {
-  width: 300px;
-  height: 300px;
-}
-
-.lg\:h-40 {
-  height: 160px;
-}
-
-/* Custom animations for ImageSlider */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fadeInUp {
-  animation: fadeInUp 0.6s ease-out forwards;
-}
-
-/* Swiper pagination styles */
-.swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #d1d5db;
-  opacity: 1;
-  transition: all 0.3s ease;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: #004B87;
-  transform: scale(1.25);
-}
-
-.swiper-pagination-bullet:hover {
-  background-color: #9ca3af;
-}
-
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --primary-blue: #003366;
-  --primary-blue-hover: #004080;
-  --gold-light: #D4AF37;
-  --gold-medium: #FFD700;
-  --gold-dark: #B8860B;
-  --font-regular: 'Sansationregular', 'Sansation_Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  --font-bold: 'Sansationbold', 'Sansation_Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-primary-blue: var(--primary-blue);
-  --color-primary-blue-hover: var(--primary-blue-hover);
-  --color-gold-light: var(--gold-light);
-  --color-gold-medium: var(--gold-medium);
-  --color-gold-dark: var(--gold-dark);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-/* Apply Sansation fonts to every element */
-* {
-  font-family: var(--font-regular);
-}
-
-/* Headings use bold font */
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-bold);
-}
-
-/* Bold text elements */
-.font-bold, .font-sansation-bold, strong, b {
-  font-family: var(--font-bold);
-}
-
-/* Regular text elements */
-.font-regular, .font-sansation-regular, p, span, div, button, input, textarea, label {
-  font-family: var(--font-regular);
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-regular);
-}
-
-/* Custom font classes for Sansation fonts */
-.font-sansation-regular {
-  font-family: var(--font-regular);
-  font-weight: 400;
-}
-
-.font-sansation-bold {
-  font-family: var(--font-bold);
   font-weight: 700;
 } 
 

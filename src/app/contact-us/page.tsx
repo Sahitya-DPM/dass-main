@@ -30,7 +30,7 @@ export default function ContactUsPage() {
               Get in Touch with Our Team
             </p>
             <p className="text-gray-700 text-[18px] leading-[26px] font-sansation-regular">
-              We're here to help you achieve the smile of your dreams. Contact us today to schedule your consultation or ask any questions about our Invisalign treatment options.
+              We&apos;re here to help you achieve the smile of your dreams. Contact us today to schedule your consultation or ask any questions about our Invisalign treatment options.
             </p>
           </div>
 
@@ -90,7 +90,7 @@ export default function ContactUsPage() {
                 
                 <div className="space-y-4">
                   <p className="text-gray-700 text-[15px] leading-[22px] font-sansation-regular">
-                    Use the contact form below to drop us a line if you can't talk on the phone right now. Any scheduling changes or cancellations must be called into the office during business hours.
+                    Use the contact form below to drop us a line if you can&apos;t talk on the phone right now. Any scheduling changes or cancellations must be called into the office during business hours.
                   </p>
                   
                   <form className="space-y-4">
@@ -268,7 +268,7 @@ export default function ContactUsPage() {
                     By Car:
                   </h3>
                   <p className="text-gray-700 text-[15px] leading-[22px] font-sansation-regular">
-                    Our office is a 20 minute drive from 30th Street Station via I-76 West. There's a few free parking options in the area, including the lot that is accessible from Saint James Pl., between E. Montgomery Ave. and Coulter Ave.
+                    Our office is a 20 minute drive from 30th Street Station via I-76 West. There&apos;s a few free parking options in the area, including the lot that is accessible from Saint James Pl., between E. Montgomery Ave. and Coulter Ave.
                   </p>
                   <button className="mt-4 bg-[#004B87] text-white py-2 px-4 rounded-lg font-sansation-bold hover:bg-[#003366] transition-colors duration-300">
                     Get Directions

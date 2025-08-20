@@ -111,7 +111,7 @@ export default function BestInvisalignDealPage() {
                        Kim
                      </h3>
                      <p className="text-gray-700 text-[18px] lg:text-[20px] leading-[28px] font-sansation-regular italic">
-                       "It's definitely a process that I would recommend to anyone else who is looking to do some enhancement to their smile."
+                       &quot;It&apos;s definitely a process that I would recommend to anyone else who is looking to do some enhancement to their smile.&quot;
                      </p>
                    </div>
                    
@@ -163,7 +163,7 @@ export default function BestInvisalignDealPage() {
                        Jason
                      </h3>
                      <p className="text-gray-700 text-[18px] lg:text-[20px] leading-[28px] font-sansation-regular italic">
-                       "My teeth are amazing."
+                       &quot;My teeth are amazing.&quot;
                      </p>
                    </div>
                    
@@ -215,7 +215,7 @@ export default function BestInvisalignDealPage() {
                        Jacqui
                      </h3>
                      <p className="text-gray-700 text-[18px] lg:text-[20px] leading-[28px] font-sansation-regular italic">
-                       "My teeth look beautiful!"
+                       &quot;My teeth look beautiful!&quot;
                      </p>
                    </div>
                    
@@ -267,7 +267,7 @@ export default function BestInvisalignDealPage() {
                        Jim
                      </h3>
                      <p className="text-gray-700 text-[18px] lg:text-[20px] leading-[28px] font-sansation-regular italic">
-                       "When I first got the retainers in I thought I was going to feel a bunch of plastic in my mouth, but actually from day 1 it really wasn't that bad."
+                       &quot;When I first got the retainers in I thought I was going to feel a bunch of plastic in my mouth, but actually from day 1 it really wasn&apos;t that bad.&quot;
                      </p>
                    </div>
                    
@@ -404,7 +404,7 @@ export default function BestInvisalignDealPage() {
                     <li className="text-[#004B87] text-[16px] font-sansation-regular hover:text-[#029fde] transition-colors cursor-pointer">• Invisalign® vs Smile Direct Club</li>
                     <li className="text-[#004B87] text-[16px] font-sansation-regular hover:text-[#029fde] transition-colors cursor-pointer">• Invisalign® vs Candid Co</li>
                     <li className="text-[#004B87] text-[16px] font-sansation-regular hover:text-[#029fde] transition-colors cursor-pointer">• Cost of Invisalign®</li>
-                    <li className="text-[#004B87] text-[16px] font-sansation-regular hover:text-[#029fde] transition-colors cursor-pointer">• My Dentist Said I Can't Do Invisalign®</li>
+                    <li className="text-[#004B87] text-[16px] font-sansation-regular hover:text-[#029fde] transition-colors cursor-pointer">• My Dentist Said I Can&apos;t Do Invisalign®</li>
                   </ul>
                 </div>
                 

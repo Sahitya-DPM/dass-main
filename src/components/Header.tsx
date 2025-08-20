@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 const Header = () => {
@@ -100,7 +101,7 @@ const Header = () => {
         }`}>
           {/* Left side - Logo */}
           <div className="flex-shrink-0 mb-4 lg:mb-0 flex items-center">
-            <a href="/" className="cursor-pointer">
+            <Link href="/" className="cursor-pointer">
               <Image
                 src="/images/website-logo.png"
                 alt="Dentistry at SuburbanSquare Logo"
@@ -113,7 +114,7 @@ const Header = () => {
                 }`}
                 priority
               />
-            </a>
+            </Link>
           </div>
 
           {/* Right side - Contact and Navigation */}

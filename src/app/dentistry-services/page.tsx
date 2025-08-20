@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AwardSection from "@/components/AwardSection";
 import TopRatedSection from "@/components/TopRatedSection";
-import Link from "next/link";
+
 import Image from "next/image";
 
 export default function DentistryServices() {
